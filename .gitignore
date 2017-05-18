@@ -100,3 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 pip install AWSIoTPythonSDK
+git clone https://github.com/aws/aws-iot-device-sdk-python.git
+cd aws-iot-device-sdk-python
+python setup.py install
